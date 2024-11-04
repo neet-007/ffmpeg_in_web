@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "noEmit": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+  },
+  "include": ["./**/*.js", "types/**/*.d.ts"],
+  "exclude": ["node_modules"]
+}
